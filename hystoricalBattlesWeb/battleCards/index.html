@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hystorical battle Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Index of battles</h1>
+    </header>
+    <main>
+
+    <form>
+        <input 
+            type='text'
+            id="nameOfBattle"
+            placeholder="What's the name of the battle"/>
+        <input 
+            type='text'
+            id="result"
+            placeholder="What was the result of the battle"/>
+        <input 
+            type='text'
+            id="location"
+            placeholder="What was the location of the battle"/>
+        <input 
+            type='text'
+            id="casulties"
+            placeholder='What were the casulties?'/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste an image URL'/>
+        <input 
+            type='text'
+            id="date"
+            placeholder='When did the battle happen?'/>
+        <button>add battle</button>
+    </form>
+
+    <section id="battle-container"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
